@@ -1,2 +1,0 @@
-# WEB_DEV_COURSE
- 

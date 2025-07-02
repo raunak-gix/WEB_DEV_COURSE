@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">
+        <meta name="description" content="This is a page that contains description about me.">
+        <title>Forms</title>
+        <link rel="stylesheet" href="script.css">
+    </head>
+    <body>
+        <h1>Form to apllication</h1>
+        <form action="post">
+            <div>
+            <label for="username">Enter your username: </label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required autofocus>
+            </div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+
+            <div>
+                <input type="checkbox" name="subvscribe" id="subscribe" value="yes">
+                <label for="subscribe">Subscribe to hehe</label>
+            </div>
+            
+            <div>
+                <textarea name="comment" id="comment" rows="4" cols="37">           Enter the comment
+                </textarea>
+            </div>
+            <div>
+                <select name="Fruits" id="Fruits">
+                    <option value="apple">Apple</option>
+                    <option value="banana">Banana</option>
+                    <option value="mango">Mango</option>
+                </select>
+            </div>
+        </form>
+        <script src="script.js"></script>
+    </body>
+</html>

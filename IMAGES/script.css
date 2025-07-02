@@ -1,0 +1,11 @@
+th{
+    border: 2px solid black;
+}
+
+
+td{
+    color: brown;
+    text-align: center;
+    background-color: aquamarine;
+    border: 2px solid black;
+}
